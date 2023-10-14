@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# EcommPro: E-commerce, Elevated
+
+<img src="./public/ecommpro.svg" width="300px" />
+
+EcommPro is a next-generation e-commerce platform designed to simplify online retail for businesses of all sizes. With a suite of powerful features and an intuitive design, EcommPro aims to revolutionize the e-commerce experience.
+
+## Core Features
+
+- **Effortless Storefront Creation**: Launch with professionally designed, mobile-optimized templates.
+- **Intuitive Product Management**: Manage products, stock, and variants with ease.
+- **Integrated Payment Solutions**: Supports popular gateways like Stripe, PayPal, and more.
+- **Real-time Analytics Dashboard**: Gain actionable insights to optimize your store.
+- **Global Sales Tools**: Sell internationally with multi-currency, tax, and shipping tools.
+- **Robust Security**: Ensure safe transactions and adhere to e-commerce regulations.
+- **Dynamic Scalability**: A platform that grows with your business needs.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Git
+- Node.js v14+
+- MongoDB v4+
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/tg4web/ecommpro.git
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. Navigate to project directory:
+   ```bash
+   cd ecommpro
+3. Install dependencies:
+   ```bash
+   npm install
+4. Start the server:
+   ```bash
+   npm run build 
+   npm run start
 
-## Learn More
+5. Verify the server is running:
+   ```bash
+   visit http://localhost:3000 in your browser
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+We welcome contributions! Please read our CONTRIBUTING.md for details on how to set up your development evironment, the coding standards, and the process for submitting pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Acknowledgements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Tg4web:
+   - Project Owner
+
+- Vercel:
+   - Provides Next.js framework and deployment solution
+
+- TRPC:
+   - BACK-END TYPESAFETY!!!
+
+## Stay Connected
+
+For the latest updates and progress, sign up for our mailing list.
