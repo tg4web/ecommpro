@@ -42,9 +42,12 @@ export default function Dashboard() {
     (customerInteraction: CustomerInteractionProps) => {
       return (
         <>
-          <div className="flex justify-center items-center w-full">
+          <div
+            key={customerInteraction.customerName}
+            className="flex justify-center items-center w-full"
+          >
             <div key={customerInteraction.customerName} className="w-full">
-              <div className="p-2">
+              <div key={customerInteraction.customerName} className="p-2">
                 <div className="div">
                   <span className="text-lg font-bold">
                     {customerInteraction.customerName}
@@ -68,7 +71,9 @@ export default function Dashboard() {
               </div>
             </div>
             <div className="">
-              <Button variant={"secondary"} className="w-32">Respond</Button>
+              <Button variant={"secondary"} className="w-32">
+                Respond
+              </Button>
             </div>
           </div>
         </>
